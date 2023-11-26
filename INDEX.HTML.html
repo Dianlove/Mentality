@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="Mentality.com" content="width=device-width, initial-scale=1.0">
+
+    <title> Mentality.com</title>
+    
+
+    <link rel="shortcut icon" href="../IMÁGENES/MENTALITY IMAGENES/Logo color.png" type="image/png" />
+
+
+<style>
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+    }
+    
+   
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 2.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 50px) {
+      .text {font-size: 11px}
+    }
+    </style>
+
+<style>
+    body {margin:0;}
+    
+    .icon-bar {
+      width: 100%;
+      background-color: #f3eded;
+      overflow: auto;
+    }
+    
+    .icon-bar a {
+      float: right;
+      width: 5%;
+      text-align: center;
+      padding: 8px 0;
+      transition: all 0.3s ease;
+      color: srgb(7, 0, 0);
+      font-size: 5px;
+      margin-left: 30px;
+    }
+    
+    .icon-bar a:hover {
+      background-color: rgb(11, 238, 181);
+    width: 5%;
+    }
+    
+    .active {
+      background-color: #f3faf7;
+    }
+    </style>
+
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #047a04;
+      
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align:right;
+      padding: 13px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #90ee90;
+      
+    }
+    </style>
+
+</head>
+
+<div style="background-color:#bff7c4; width: 100%; height: 150px">
+  <img src="../IMÁGENES/MENTALITY IMAGENES/Logo color.png" alt="MENTA 2" style="width:200px;height:150px;;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 50px;">
+  <img src="../IMÁGENES/MENTALITY IMAGENES/Mentality logotipo.png" alt="MENTA 2" style="width:350px;height:100px; float: right; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 70px;
+  margin-left: 50px;">
+  
+</div>
+
+
+
+<body>
+
+    <div class="icon-bar">
+
+          
+        <a href="https://instagram.com/mentality_cecytem?igshid=MTk0NTkyODZkYg=="><img src="../IMÁGENES/MENTALITY IMAGENES/ICON INSTRAGRAM.png" alt="Icono Instragram" title=" Instagram Mentality" style="width:20px;height:20px;"></a>
+        <a href="https://www.facebook.com/profile.php?id=61553415914531&mibextid=MUfG1I"><img src="../IMÁGENES/MENTALITY IMAGENES/ICON FACEBOOK.png" alt="Icono Facebook" title="Facebook Mentality" style="width:20px;height:20px;"></a>
+        <a href="#"><img src="../IMÁGENES/MENTALITY IMAGENES/ICON ARROBA.png" alt="icono arroba" title="Ingerasar al correo electr&oacute;nico" style="width:20px;height:20px;"></a>
+        <a href="#"><img src="../IMÁGENES/MENTALITY IMAGENES/ICON LUPA.png" alt="icono lupa" title="Buscar en el sitio" style="width:20px;height:20px;"></a>
+        <a href="#"><img src="../IMÁGENES/MENTALITY IMAGENES/ICON CASITA.png" alt="Icono casita" title="P&aacute;gina principal" style="width:20px;height:20px;"></a>
+
+    </div>
+
+
+
+        <ul>
+            <li><a href="#Casa" style="margin-left:500px ">Casa</a></li>
+            <li><a href="#noticias">Noticias</a></li>
+            <li><a href="#prodecimiento">Procedimiento</a></li>
+          </ul>
+
+
+
+<div class="slideshow-container">
+
+            <div class="mySlides fade">
+
+              <img src="../IMÁGENES/MENTALITY IMAGENES/menta imagen.jpg" alt="Planta de menta" style="width:100%; height: 350PX;">
+        
+            </div>
+            
+            <div class="mySlides fade">
+              
+              <img src="../IMÁGENES/MENTALITY IMAGENES/PRODUCTO IMÁGEN.png" alt="Im&aacute;gen producto"
+          style="width:100%; height: 350px; ; "> 
+            </div>
+            
+            <div class="mySlides fade">
+             
+              <img src="../IMÁGENES/MENTALITY IMAGENES/Cartel edit.png" alt="Cartel Mentality"  style="width:100%;height:350px">
+              
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 4000); // Change image every 10 seconds
+            }
+            </script>
+
+
+
+          
+</body>
+</html>
